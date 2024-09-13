@@ -181,20 +181,20 @@ Parameter yang memiliki nilai default jika tidak diberikan nilai saat function d
 ```
 
 Berikut contoh syntax antara jenis variabel tersebut:
-1. Positional Parameter
+- . Positional Parameter
 ``` dart
 void positionalParameters(String name, int age) {
   print('Name: $name, Age: $age');
 }
 ```
-2. Named Parameter
+- . Named Parameter
 ``` dart
 void namedParameters({required String name, required int age}) {
   print('Name: $name, Age: $age');
 }
 ```
 
-3. Default Parameter
+- . Default Parameter
 ``` dart
 void defaultParameter({String name = 'Fulan', int age = 18}) {
   print('Name: $name, Age: $age');
